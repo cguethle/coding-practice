@@ -1,0 +1,29 @@
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+twelve
+thirteen
+fourteen
+fifteen
+sixteen
+seventeen
+eighteen
+nineteen
+twenty
+twenty-one  ---> twenty-nine
+thirty
+thirty-one  ---> thirty-nine
+...
+ninety
+ninety-one  ---> ninety-nine
+[one|two|...|nine] hundred
+[one|two|...|nine] hundred [and [one|two|...|{anything 1s or 10s}]]]?
+[one|two|...|nine] thousand
