@@ -2,6 +2,10 @@ sums = {}
 
 
 def get_proper_divisors_sum(n):
+    # could likely be better as we are brute force calculating all
+    # proper divisors for numbers we have already solved.
+    # maybe hash table of entries?
+    # magical math formula or trick? 5 cool ways to solve this that will shock you? :)
     divisors = [x for x in range(1, (n // 2) + 1) if n % x == 0]
     return sum(divisors)
 
